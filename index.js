@@ -348,4 +348,6 @@ function thirdMax(num) {
 }
 
 console.log(thirdMax([1, 2, 2, 3]));
-console.log(thirdMax([1, 2, 3]));
+console.log(thirdMax([1, 3, 2, 3]));
+
+
