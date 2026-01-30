@@ -351,3 +351,19 @@ console.log(thirdMax([1, 2, 2, 3]));
 console.log(thirdMax([1, 3, 2, 3]));
 
 
+
+function wordsEx(str, x) {
+  let res = [];
+  for (let i = 0; i < str.length; i++) {
+    if (str[i].includes(x)) {
+      res.push(i)
+    }
+  }
+  return res;
+}
+
+console.log(wordsEx(['leet', 'code'], 'e'));
+
+console.log(wordsEx(["abc", "bcd", "aaaa", "cbc"], 'a'));
+
+["abc", "bcd", "aaaa", "cbc"]
